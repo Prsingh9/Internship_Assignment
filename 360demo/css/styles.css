@@ -9,16 +9,18 @@
    top: 0.5rem;
    transform: rotate(-45deg);
    background-color: rgb(233, 178, 14);
-  
-   
-   
-   
-   
 } 
 
-.new_text{
-    rotate: -40px;
-}
+.new1{
+    font-size: .9rem;
+    position: absolute;
+   left: -1rem;
+   top: 0.2rem;
+   transform: rotate(-45deg);
+   background-color: rgb(233, 178, 14);
+  
+   
+} 
 
 #pricing{
     padding: 40px 50px;
@@ -49,20 +51,33 @@
     width: 80%;
 }
 
+
 .para{
     text-align: left;
     padding: 0 30px;
     font-weight: 500;
-   
- 
-    
 }
 
+.para1{
+    text-align: left;
+    font-weight: 500;
+    padding: 0 20px;
+    font-size: small;
+}
+
+.inside-box{
+    text-align: center;
+}
 
 
 .link {
     text-decoration: none;
    
+}
+
+.link1{
+    text-decoration: none;
+    
 }
 
 .box-content{
@@ -112,8 +127,6 @@
     font-weight: bold;
     bottom: .8rem;
     left: .2rem;
-    /* top:8.5rem;
-    left:7.3rem; */
 }
 
 .start{
@@ -126,3 +139,31 @@
     font-weight: bold;
    
 }
+
+.start2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-content1{
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 1.5rem 10%; 
+   border-width: 2rem;
+   border-style:solid;
+   border-color: rgb(233, 178, 14);
+}
+
+@media (max-width: 767px) {
+    #pricing {
+      display: none;
+    }
+  }
+
+  @media(min-width: 768px){
+    #testimonials{
+        display: none;
+    }
+  }
